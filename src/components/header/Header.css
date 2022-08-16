@@ -1,0 +1,117 @@
+.header{
+    display: flex;
+    background: rgb(44,3,63);
+    background: linear-gradient(139deg, rgba(44,3,63,1) 0%, rgba(200,28,89,1) 80%, rgba(255,0,82,1) 100%);
+}
+.header_title{
+    display: flex;
+    padding-top: 4vw;
+    padding-left: 2.4vw;
+    flex-direction: column;
+    padding-bottom: 10vw;
+}
+
+.header_title_reference{
+    display: flex;
+    font-size: 1vw;
+    font-weight: 100;
+    color: #ff5995;
+    letter-spacing: 1px;
+
+}
+
+.header_title_reference_image{
+    margin-right: 0.8vw;
+    width: 1vw;
+}
+
+.header_title_main{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: left;
+    margin-top: 1vw;
+    font-family: AkrobatBold;
+    font-size: 3vw;
+    color: white;
+}
+
+.header_title_main_big{
+    margin-top: 0.8vw;
+    font-size: 6vw;
+    line-height: 0.8;
+}
+
+.header_title_main_big_red{
+    color:#ff195a
+}
+
+.header_title_reference_bot{
+    margin-top: 3vw;
+    text-align: left;
+    font-size: 1vw;
+    font-weight: 100;
+    color: #ff85c2;
+}
+.header_img{
+    width: 35vw;
+    height: 35vw;
+    object-fit: cover;
+    align-self: flex-end;
+}
+
+.header_title_ol{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1vw;
+    font-weight: 100;
+    color: #ff85c2;
+    margin-top: 6vw;
+}
+.header_title_li{
+    display: flex;
+    width: 22vw;
+    margin-bottom: 1vw;
+}
+.header_title_li_num{
+    font-family: Roboto;
+    font-size: 3.2vw;
+    line-height: 0.9;
+    margin-right: 0.2vw;
+}
+.header_title_li_text{
+    font-family: Roboto;
+    font-size: 1vw;
+    line-height: 1.3;
+}
+.header_title_li_text_wh{
+    color: white;
+    font-style: bold;
+}
+.text_bold{
+    font-family: RobotoBold;
+    color:white;
+}
+.header_button{
+    margin-top: 2vw;
+    height:3vw;
+    border-radius: 10px;
+    border: none;
+    background-color:#ff195a;
+    cursor: pointer;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+.header_button_text{
+    font-family: RobotoBold;
+    color:white;
+    letter-spacing: 1px;
+}
+
+.header_button:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    box-shadow:1vw 1vw #ff85c2;
+}
+
