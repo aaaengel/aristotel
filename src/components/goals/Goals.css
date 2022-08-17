@@ -42,10 +42,11 @@
     border-radius: 15px;
 }
 .goals_bilet_bigtext{
-    max-width: max-content;
+    max-width: min-content;
     color:#ff195a;
     font-family:AkrobatBold;
     font-size: 50px;
+    margin-right: 30px;
 }
 .goals_bilet_smalltext{
     text-align: left;
