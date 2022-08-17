@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/aristotel/static/css/main.d85afad4.css",
+    "main.js": "/aristotel/static/js/main.d93ac453.js",
+    "static/js/787.ac58a4ce.chunk.js": "/aristotel/static/js/787.ac58a4ce.chunk.js",
+    "static/media/ars.png": "/aristotel/static/media/ars.e72f9ae50b1b9ff38abf.png",
+    "static/media/aris.png": "/aristotel/static/media/aris.2f293bcababf4838f35b.png",
+    "static/media/pills.png": "/aristotel/static/media/pills.1db5b216d13361611922.png",
+    "static/media/Roboto-Light.ttf": "/aristotel/static/media/Roboto-Light.368aee5f4784ab912d2d.ttf",
+    "static/media/Roboto-Bold.ttf": "/aristotel/static/media/Roboto-Bold.c477ec326ec5faea4705.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/aristotel/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-Bold.ttf": "/aristotel/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Regular.ttf": "/aristotel/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/Akrobat-ExtraBold.otf": "/aristotel/static/media/Akrobat-ExtraBold.c563e35d28216ebe96ef.otf",
+    "static/media/Akrobat-Bold.otf": "/aristotel/static/media/Akrobat-Bold.02bb6e66ddbe0c7afdcb.otf",
+    "static/media/Akrobat-Light.otf": "/aristotel/static/media/Akrobat-Light.1150db0acfac627aa948.otf",
+    "static/media/Akrobat-Regular.otf": "/aristotel/static/media/Akrobat-Regular.12827ce5e0d9afebcc19.otf",
+    "static/media/cry.png": "/aristotel/static/media/cry.bf207acc33cf84e0a6ae.png",
+    "index.html": "/aristotel/index.html",
+    "main.d85afad4.css.map": "/aristotel/static/css/main.d85afad4.css.map",
+    "main.d93ac453.js.map": "/aristotel/static/js/main.d93ac453.js.map",
+    "787.ac58a4ce.chunk.js.map": "/aristotel/static/js/787.ac58a4ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d85afad4.css",
+    "static/js/main.d93ac453.js"
+  ]
+}
