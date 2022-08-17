@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aristotel/static/css/main.d85afad4.css",
+    "main.css": "/aristotel/static/css/main.ed1e8333.css",
     "main.js": "/aristotel/static/js/main.d93ac453.js",
     "static/js/787.ac58a4ce.chunk.js": "/aristotel/static/js/787.ac58a4ce.chunk.js",
     "static/media/ars.png": "/aristotel/static/media/ars.e72f9ae50b1b9ff38abf.png",
@@ -17,12 +17,12 @@
     "static/media/Akrobat-Regular.otf": "/aristotel/static/media/Akrobat-Regular.12827ce5e0d9afebcc19.otf",
     "static/media/cry.png": "/aristotel/static/media/cry.bf207acc33cf84e0a6ae.png",
     "index.html": "/aristotel/index.html",
-    "main.d85afad4.css.map": "/aristotel/static/css/main.d85afad4.css.map",
+    "main.ed1e8333.css.map": "/aristotel/static/css/main.ed1e8333.css.map",
     "main.d93ac453.js.map": "/aristotel/static/js/main.d93ac453.js.map",
     "787.ac58a4ce.chunk.js.map": "/aristotel/static/js/787.ac58a4ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d85afad4.css",
+    "static/css/main.ed1e8333.css",
     "static/js/main.d93ac453.js"
   ]
 }
