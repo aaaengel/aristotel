@@ -1,0 +1,159 @@
+.needtodo{
+    padding-top: 4vw;
+    background-color:  #0A0A0A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.needtodo_block{
+    max-width:1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.needtodo_icon{
+    max-width: 300px;
+}
+
+.needtodo_title{
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 800px;
+    margin-top: 1vw;
+    font-family: AkrobatBold;
+    font-size: 36px;
+    color:white;
+}
+.needtodo_title_pink{
+    color:#fd3670;
+}
+.needtodo_main_text{
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.4;
+    margin-top: 0.6vw;
+    font-size: 18px;
+    font-family: Mons;
+    letter-spacing: 1px;
+    color: white;
+    max-width:800px;
+}
+
+.needtodo_forpills{
+    position: relative;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    height: 20vw;
+    background-image: url("../../images/pills.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: top center;
+    width:100vw;
+}
+
+.needtodo_forpills:before{
+    content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #0A0A0A;
+    opacity: 0.4;
+}
+
+.needtodo_btn{
+    z-index: 2;
+    padding:20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 6px;
+    border: none;
+    background-color:#ff195a;
+    cursor: pointer;
+    margin-bottom: 2vw;
+    filter: drop-shadow(0 0 50px #ff195a);
+    transition:all 0.5s;
+}
+
+.needtodo_main_text_bold{
+    margin-top: 0.6vw;
+    font-family: RobotoBold;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 20px;
+}
+.needtodo_main_text_btn{
+    margin:0;
+    letter-spacing: 0.1px;
+    font-family: MonsLitBold;
+    font-size: 16px;
+    color: white;
+}
+
+.needtodo_main_text_btn_oncl{
+    animation: textcol 0.8s;
+}
+
+.needtodo_btn:hover{
+    transform:scale(1.1, 1.1);
+    transition: transform 0.5s ease-in-out;
+}
+.needtodo_anim{
+    animation: up 0.8s;
+}
+
+@keyframes textcol{
+    50%{
+        color:#b31e35
+    }
+    100%{
+        color:white;
+    }
+}
+
+@keyframes up {
+    0% {
+        margin-bottom: 2vw;
+        
+    }
+    50%{
+        margin-bottom: 5vw;
+        background-color:#ff467a;
+        filter: drop-shadow(0 0 100px #ff467a);
+    }
+    100%{
+        margin-bottom: 2vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .needtodo_icon{
+        margin-bottom: 30px;
+    }
+    .needtodo_title{
+        font-size: 25px;
+    }
+    .needtodo_main_text{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .needtodo_btn{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .needtodo_main_text_btn{
+        font-size: 10px;
+    }
+    .needtodo_forpills{
+        height: 200px;
+    }
+}

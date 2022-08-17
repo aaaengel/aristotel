@@ -1,0 +1,97 @@
+.rule{
+    background-color: #0A0A0A;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 3vw;
+    justify-content: center;
+}
+.rule_text{
+    filter: drop-shadow(0 0 100px #ff195a);
+    display: flex;
+    max-width: 1000px;
+    flex-direction: column;
+    text-align: left;
+}
+.rule_text_whitebold{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: AkrobatBold;
+    font-size:50px;
+    color: white;
+}
+.rule_text_pinkbold{
+    font-family: AkrobatBold;
+    font-size: 70px;
+    color: #ff195a;
+}
+.rule_icon{
+    width: 60px;
+    margin-right: 0.4vw;
+}
+.rule_icon_div{
+    margin-left: 50px;
+    margin-right: 50px;
+    filter: drop-shadow(0 0 70px #ff195a);
+    display:flex;
+    flex-direction: row;
+}
+.rule_text_white{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0.8vw;
+    letter-spacing: 1px;
+    max-width:600px;
+    font-family: Mons;
+    font-size: 18px;
+    color: white;
+}
+.rule_text_white_pink{
+    color:#ff195a;
+}
+
+.rule_empty{
+    width:25vw;
+    height:25vw;
+    background-image: url("../../images/cry.png");
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1200px){
+    .rule{
+        flex-direction: column;
+    }
+    .rule_text{
+        margin-bottom: 40px;
+    }
+    .rule_text_whitebold{
+        font-size:30px;
+    }
+    .rule_text_pinkbold{
+        font-size: 50px;
+    }
+    .rule_text_white{
+        font-size: 15px;
+    }
+    .rule_icon{
+        width: 40px;
+        margin-right: 10px;
+    }
+    .rule_empty{
+        width: 50vw;
+        height: 50vw;
+    }
+}
+@media screen and (max-width: 500px){
+    .rule_text_whitebold{
+        font-size:25px;
+    }
+    .rule_text_pinkbold{
+        font-size: 35px;
+    }
+    .rule_icon{
+        width: 30px;
+    }
+}
+
