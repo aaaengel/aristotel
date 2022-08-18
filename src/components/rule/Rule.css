@@ -58,7 +58,25 @@
     background-size: cover;
 }
 
+.rule_plashka{
+    margin-top: 30px;
+    max-width: 570px;
+    margin-left: 50px;
+    background-color: #ff195a;
+    padding:30px;
+    border-radius: 10px;
+}
+
+.rule_plashka_text{
+    color:white;
+    font-family: MonsLitBold;
+    letter-spacing: 1px;
+}
+
 @media screen and (max-width: 1200px){
+    .rule_plashka{
+        margin-right: 50px;
+    }
     .rule{
         flex-direction: column;
     }
@@ -92,6 +110,12 @@
     }
     .rule_icon{
         width: 30px;
+    }
+    .rule_plashka_text{
+        font-size: 12px;
+    }
+    .rule_plashka{
+        padding: 20px;
     }
 }
 

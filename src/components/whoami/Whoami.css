@@ -1,0 +1,156 @@
+.whoami{
+    display:flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.whoami_text{
+    display: flex;
+    width:fit-content;
+    text-align: left;
+}
+
+.whoami_text_about{
+    color: white;
+    font-family: Mons;
+    font-size:18px;
+    max-width: 800px;
+}
+
+.whoami_text_about_pink{
+    font-family: AkrobatBold;
+    color: #ff195a;
+    font-size: 50px;
+}
+.whoami_text_about_boldwh{
+    color: white;
+    font-family: AkrobatBold;
+    font-size:70px;
+}
+.whoami_shine{
+    position: relative;
+    width: 300px;
+    margin-right: 100px;
+}
+.whoami_text_about_text{
+    margin-top: 30px;
+}
+.whoami_img{
+    position: absolute;
+    left:-130px;
+    filter: drop-shadow(0 0 100px #ff195a);
+    
+}
+.whoami_block{  
+    margin-top: 100px;
+    background-color: #242424;
+    z-index: 1;
+    padding: 30px;
+    text-align: left;
+    border-radius: 20px;
+}
+.whoami_results{
+    background-color:#ff195a;
+    padding: 6px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.whoami_results_text{
+    letter-spacing: 1px;
+    color: white;
+    font-family: Mons;
+    font-size: 20px;
+}
+.whoami_results_text_main{
+    margin-top: 20px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: Mons;
+    font-size: 16px;
+}
+.whoami_results_text_main_pink{
+    color:#ff195a;
+}
+.whoami_blocks{
+    display: flex;
+}
+.whoami_blocks_text{
+    color: #ff195a;
+    font-family: AkrobatBold;
+    font-size: 150px;
+    max-width: 850px;
+    text-align: left;
+    margin-left: 60px;
+    margin-top:60px;
+    filter: drop-shadow(0 0 80px #ff195a)
+}
+.whoami_text_afterblocks{
+    margin-top:50px;
+    font-family: Mons;
+    font-size: 25px;
+    color:white;
+}
+.whoami_btn{
+    margin-top:50px;
+}
+
+@media screen and (max-width: 1600px) {
+    .whoami_text{
+        flex-direction: column-reverse;
+        margin-left:50px;
+        margin-right: 50px;
+    }
+    .whoami_blocks_text{
+        display: none;
+    }
+    .whoami_img{
+        position: unset;
+    }
+    .whoami_shine{
+        margin-right: 0;
+        width: fit-content;
+        align-self: center;
+        display: flex;
+    }
+    .whoami_block{  
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .whoami_results_text_main{
+        max-width: 350px;
+    }
+    .whoami_results_text{
+        font-size: 15px;
+    }
+    .whoami_img{
+        max-width: 300px;
+    }
+    .whoami_text_about_pink{
+        font-size: 30px;
+    }
+    .whoami_text_about_boldwh{
+        font-size:50px;
+    }
+    .whoami_text_about{
+        font-size:13px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .whoami_results_text_main{
+        text-align: center;
+        max-width: 200px;
+        font-size: 11px;
+    }
+    .whoami_results_text{
+        font-size: 12px;
+    }
+    .whoami_block{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,48 @@
+.joinus{
+    padding:60px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #0a0a0a;
+}
+.joinus_title{
+    max-width: 1300px;
+    align-self: center;
+    color:white;
+    font-family: AkrobatMegaBold;
+    font-size: 80px;
+}
+.joinus_title_link{
+    text-decoration: none;
+    color: #ff195a;
+    font-size: 100px;
+    animation: rainbow 6s infinite ease;
+    transition: filter 0.5s;
+}
+
+.joinus_title_link:hover{
+    transition: filter 0.5s;
+    filter: drop-shadow(0 0 30px white);
+}
+
+@keyframes rainbow {
+    10% {color: #ff8000;}
+    40% {color: #00ff00;}
+    60% {color: #00ffff;}
+    70% {color: #0080ff;}
+    100% {color: #ff195a}
+}
+@media screen and (max-width: 700px) {
+    .joinus_title{
+        font-size: 50px;
+    }
+    .joinus_title_link{
+        text-decoration: none;
+        color: #ff195a;
+        font-size: 70px;
+        animation: rainbow 6s infinite ease;
+        transition: filter 0.5s;
+    }
+}
+    
