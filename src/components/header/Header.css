@@ -99,8 +99,8 @@
     color:white;
 }
 .header_button{
-    margin-top:10px;
-    margin-bottom:50px;
+    width: 100%;
+    margin-bottom: 50px;
     height:70px;
     border-radius: 10px;
     border: none;

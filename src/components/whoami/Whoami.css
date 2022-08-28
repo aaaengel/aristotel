@@ -70,6 +70,7 @@
     color: white;
     font-family: Mons;
     font-size: 16px;
+    max-width: 600px;
 }
 .whoami_results_text_main_pink{
     color:#ff195a;

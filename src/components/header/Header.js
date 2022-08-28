@@ -37,7 +37,9 @@ return(
                     <p className="header_title_li_num">04</p>
                     <p className="header_title_li_text">Каждый год наши ученики поступают в <b className="text_bold">лучшие ВУЗы страны</b></p>
                 </div>
-                <button className="header_button"><p className="header_button_text">Вступить в клуб</p></button>
+                <a href="https://t.me/AristotelEGEBot">
+                    <button className="header_button"><p className="header_button_text">Вступить в клуб</p></button>
+                </a>
             </div>
         </div>
     </div>

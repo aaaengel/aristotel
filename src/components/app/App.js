@@ -6,6 +6,7 @@ import Rule from "../rule/Rule"
 import Whoami from "../whoami/Whoami"
 import Nowunder from "../nowunder/Nowunder"
 import Joinus from "../joinus/Joinus"
+import Reviews from "../reviews/Reviews"
 import {Helmet} from "react-helmet"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Needtodo />
       <Rule />
       <Whoami />
+      <Reviews />
       <Nowunder />
       <Joinus />
     </div>

@@ -17,23 +17,23 @@ function Goals(){
                      </div>
                      <div className="goals_card">
                         <img src="https://static.tildacdn.com/tild6564-3035-4835-b539-336633656330/reading-book_Traced.svg" className="grid_icon" alt="person with a book" />
-                        <p className="goals_grid_text">Тебя пугает объем предстоящей работы и ты не знаешь, за что хвататься.</p>
+                        <p className="goals_grid_text">Тебя готовят в школе не самые квалифицированные люди.</p>
                      </div>
                      <div className="goals_card">
                         <img src="https://static.tildacdn.com/tild6564-3035-4835-b539-336633656330/reading-book_Traced.svg" className="grid_icon" alt="person with a book" />
-                        <p className="goals_grid_text">Тебя пугает объем предстоящей работы и ты не знаешь, за что хвататься.</p>
+                        <p className="goals_grid_text">Ты устал от вечной субординации и хотел бы общаться с преподавателем на равных.</p>
                      </div>
                      <div className="goals_card">
                         <img src="https://static.tildacdn.com/tild6564-3035-4835-b539-336633656330/reading-book_Traced.svg" className="grid_icon" alt="person with a book" />
-                        <p className="goals_grid_text">Тебя пугает объем предстоящей работы и ты не знаешь, за что хвататься.</p>
+                        <p className="goals_grid_text">Ты нацелен получить наивысшие баллы на ЕГЭ.</p>
                      </div>
                      <div className="goals_card">
                         <img src="https://static.tildacdn.com/tild6564-3035-4835-b539-336633656330/reading-book_Traced.svg" className="grid_icon" alt="person with a book" />
-                        <p className="goals_grid_text">Тебя пугает объем предстоящей работы и ты не знаешь, за что хвататься.</p>
+                        <p className="goals_grid_text">Ты хочешь получить много толковых наставлений и советов перед экзаменом.</p>
                      </div>
                      <div className="goals_card">
                         <img src="https://static.tildacdn.com/tild6564-3035-4835-b539-336633656330/reading-book_Traced.svg" className="grid_icon" alt="person with a book" />
-                        <p className="goals_grid_text">Тебя пугает объем предстоящей работы и ты не знаешь, за что хвататься.</p>
+                        <p className="goals_grid_text">Ты мечтаешь учиться в одном из топовых вузов страны.</p>
                      </div>
                   </div>
                </div>
@@ -57,11 +57,11 @@ function Goals(){
                   </div>
                </div>
                <ul className="goals_forwho_ol">
-                  <li className="goals_forwho_li_marks"><p className="goals_forwho_li_text">ПОДОЙДЕТ, ЕСЛИ У ТЕБЯ УСЛУГИ (ОТ БУХУЧЕТА И КОУЧИНГА ДО МАНИКЮРА), КОНСУЛЬТАЦИИ, КУРСЫ, НАСТАВНИЧЕСТВО</p></li>
-                  <li className="goals_forwho_li_marks"><p className="goals_forwho_li_text">ПОДОЙДЕТ, ЕСЛИ У ТЕБЯ УСЛУГИ (ОТ БУХУЧЕТА И КОУЧИНГА ДО МАНИКЮРА), КОНСУЛЬТАЦИИ, КУРСЫ, НАСТАВНИЧЕСТВО</p></li>
-                  <li className="goals_forwho_li_marks"><p className="goals_forwho_li_text">ПОДОЙДЕТ, ЕСЛИ У ТЕБЯ УСЛУГИ (ОТ БУХУЧЕТА И КОУЧИНГА ДО МАНИКЮРА), КОНСУЛЬТАЦИИ, КУРСЫ, НАСТАВНИЧЕСТВО</p></li>
-                  <li className="goals_forwho_li_marks"><p className="goals_forwho_li_text">ПОДОЙДЕТ, ЕСЛИ У ТЕБЯ УСЛУГИ (ОТ БУХУЧЕТА И КОУЧИНГА ДО МАНИКЮРА), КОНСУЛЬТАЦИИ, КУРСЫ, НАСТАВНИЧЕСТВО</p></li>
-                  <li className="goals_forwho_li_marks"><p className="goals_forwho_li_text">ПОДОЙДЕТ, ЕСЛИ У ТЕБЯ УСЛУГИ (ОТ БУХУЧЕТА И КОУЧИНГА ДО МАНИКЮРА), КОНСУЛЬТАЦИИ, КУРСЫ, НАСТАВНИЧЕСТВО</p></li>
+                  <li className="goals_forwho_li_marks"><p className="goals_forwho_li_text">НЕВЕРОЯТНЫЙ ОБЪЕМ ЗНАНИЙ</p></li>
+                  <li className="goals_forwho_li_marks"><p className="goals_forwho_li_text">ПОМОЩЬ ОТ ПРЕПОДАВАТЕЛЕЙ 24/7</p></li>
+                  <li className="goals_forwho_li_marks"><p className="goals_forwho_li_text">УВЕРЕННОСТЬ В СВОИХ СИЛАХ</p></li>
+                  <li className="goals_forwho_li_marks"><p className="goals_forwho_li_text">ПОЛЕЗНЫЕ ЛАЙФХАКИ ПРИ СДАЧЕ ЭКЗАМЕНА</p></li>
+                  <li className="goals_forwho_li_marks"><p className="goals_forwho_li_text">ИНДИВИДУАЛЬНЫЙ ПОДХОД К ОБУЧЕНИЮ</p></li>
                </ul>
             </div>
          </div>

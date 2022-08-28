@@ -11,7 +11,9 @@ function Needtodo(){
             <p className="needtodo_main_text">С множеством других ребят, объединенных общей целью. Под умелым руководством молодых, талантливых учителей, которые найдут индивидуальный подход к каждому. Присоединяйся к нам, чтобы потом не пожалеть.</p>
             <p className="needtodo_main_text_bold">А что выберешь ты?</p>
             <div className="needtodo_forpills">
-                <button onClick={()=> {onClick(true); setTimeout(()=>{onClick(false)}, 800)}}  className={click ? "needtodo_btn needtodo_anim" : "needtodo_btn"}><p className={click ? "needtodo_main_text_btn needtodo_main_text_btn_oncl" : "needtodo_main_text_btn"}>МНЕ ТОЧНО В КЛУБ</p></button>
+                <a href="https://t.me/AristotelEGEBot">
+                    <button onClick={()=> {onClick(true); setTimeout(()=>{onClick(false)}, 800)}}  className={click ? "needtodo_btn needtodo_anim" : "needtodo_btn"}><p className={click ? "needtodo_main_text_btn needtodo_main_text_btn_oncl" : "needtodo_main_text_btn"}>МНЕ ТОЧНО В КЛУБ</p></button>
+                </a>
             </div>
         </div>
     </div>

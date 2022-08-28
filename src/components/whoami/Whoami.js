@@ -22,17 +22,17 @@ function Whoami(){
                         <div className="whoami_results">
                             <p className="whoami_results_text">НЕКОТОРЫЕ РЕЗУЛЬТАТЫ УЧЕНИКОВ:</p>
                         </div>
-                        <p className="whoami_results_text_main"><b className="whoami_results_text_main_pink">+ 1 200 000 руб</b> на запуске курса, в аккаунте всего 1700 человек</p>
-                        <p className="whoami_results_text_main"><b className="whoami_results_text_main_pink">+ 1 200 000 руб</b> на запуске курса, в аккаунте всего 1700 человек</p>
-                        <p className="whoami_results_text_main"><b className="whoami_results_text_main_pink">+ 1 200 000 руб</b> на запуске курса, в аккаунте всего 1700 человек</p>
-                        <p className="whoami_results_text_main"><b className="whoami_results_text_main_pink">+ 1 200 000 руб</b> на запуске курса, в аккаунте всего 1700 человек</p>
-                        <p className="whoami_results_text_main"><b className="whoami_results_text_main_pink">+ 1 200 000 руб</b> на запуске курса, в аккаунте всего 1700 человек</p>
-                        <p className="whoami_results_text_main"><b className="whoami_results_text_main_pink">+ 1 200 000 руб</b> на запуске курса, в аккаунте всего 1700 человек</p>
+                        <p className="whoami_results_text_main">До посещения нашего клуба многие из наших учеников не могли написать даже выше 70 баллов <b className="whoami_results_text_main_pink">НО</b></p>
+                        <p className="whoami_results_text_main"><b className="whoami_results_text_main_pink">70%</b> учеников сдали профильную математику на 80+</p>
+                        <p className="whoami_results_text_main"><b className="whoami_results_text_main_pink">Каждый</b> из них поступил в ВУЗ на бюджет</p>
+                        <p className="whoami_results_text_main">Теперь наши ребята учатся в многих <b className="whoami_results_text_main_pink">престижных</b> ВУЗах (МГТУ имени Баумана, ВШЭ, МГУ, МИФИ)</p>
                     </div>
                     <p className="whoami_blocks_text">МЫ ЖДЕМ ИМЕННО ТЕБЯ</p>
                 </div>
                 <p className="whoami_text_afterblocks">Хочешь высоких баллов? Это ко мне.</p>
-                <button onClick={()=> {onClick(true); setTimeout(()=>{onClick(false)}, 800)}}  className={click ? "needtodo_btn whoami_btn needtodo_anim" : "whoami_btn needtodo_btn"}><p className={click ? "needtodo_main_text_btn needtodo_main_text_btn_oncl" : "needtodo_main_text_btn"}>ХОЧУ В КЛУБ</p></button>
+                <a href="https://t.me/AristotelEGEBot">
+                    <button onClick={()=> {onClick(true); setTimeout(()=>{onClick(false)}, 800)}}  className={click ? "needtodo_btn whoami_btn needtodo_anim" : "whoami_btn needtodo_btn"}><p className={click ? "needtodo_main_text_btn needtodo_main_text_btn_oncl" : "needtodo_main_text_btn"}>ХОЧУ В КЛУБ</p></button>
+                </a>
             </div>
     )
 }
