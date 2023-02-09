@@ -31,7 +31,7 @@ return(
                 </div>
                 <div className="header_title_li">
                     <p className="header_title_li_num">03</p>
-                    <p className="header_title_li_text">Будешь учится в <b className="text_bold">невероятно дружелюбной</b> атмосфере</p>
+                    <p className="header_title_li_text">Будешь учиться в <b className="text_bold">невероятно дружелюбной</b> атмосфере</p>
                 </div>
                 <div className="header_title_li">
                     <p className="header_title_li_num">04</p>

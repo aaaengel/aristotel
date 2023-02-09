@@ -12,8 +12,8 @@ function Whoami(){
                     </div>
                     <div className="whoami_text_about">
                         <p className="whoami_text_about_pink">КСТАТИ, А КТО Я ТАКОЙ?</p>
-                        <p className="whoami_text_about_boldwh">ХОЗЯИН ЭТОГО КЛУБА</p>
-                        <p>Занимаюсь научной деятельностью, выпускник МГТУ им. Н.Э. Баумана. Призёр олимпиады Жуковского по физике и математике. Победитель Всероссийской олимпиады «Шаг в будущее: Космонавтика». Призёр олимпиады Циолковского по математике.</p>
+                        <p className="whoami_text_about_boldwh">СОЗДАТЕЛЬ ЭТОГО КЛУБА</p>
+                        <p>Меня зовут Аникин Кирилл Викторович. Занимаюсь научной деятельностью, выпускник МГТУ им. Н.Э. Баумана. Призёр олимпиады Жуковского по физике и математике. Победитель Всероссийской олимпиады «Шаг в будущее: Космонавтика». Призёр олимпиады Циолковского по математике.</p>
                         <p className="whoami_text_about_text">Преподаю с 2010 года индивидуально и в группах. Подготовил огромное количество ребят, которые успешно сдали ЕГЭ, ОГЭ, вузовские олимпиады, что помогло поступить им в самые престижные вузы Москвы. Приходилось работать с разными детьми. Пробуждаю желание у детей учиться.</p>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ function Whoami(){
                     </div>
                     <p className="whoami_blocks_text">МЫ ЖДЕМ ИМЕННО ТЕБЯ</p>
                 </div>
-                <p className="whoami_text_afterblocks">Хочешь высоких баллов? Это ко мне.</p>
+                <p className="whoami_text_afterblocks">Хочешь высоких баллов? Это к нам.</p>
                 <a href="https://t.me/AristotelEGEBot">
                     <button onClick={()=> {onClick(true); setTimeout(()=>{onClick(false)}, 800)}}  className={click ? "needtodo_btn whoami_btn needtodo_anim" : "whoami_btn needtodo_btn"}><p className={click ? "needtodo_main_text_btn needtodo_main_text_btn_oncl" : "needtodo_main_text_btn"}>ХОЧУ В КЛУБ</p></button>
                 </a>

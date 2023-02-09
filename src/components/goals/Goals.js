@@ -13,7 +13,7 @@ function Goals(){
                   <div className="goals_grid">
                      <div className="goals_card">
                         <img src="https://static.tildacdn.com/tild6564-3035-4835-b539-336633656330/reading-book_Traced.svg" className="grid_icon" alt="person with a book" />
-                        <p className="goals_grid_text">Тебя пугает объем предстоящей работы и ты не знаешь, за что хвататься.</p>
+                        <p className="goals_grid_text">Тебя пугает объем предстоящей работы, и ты не знаешь, за что хвататься.</p>
                      </div>
                      <div className="goals_card">
                         <img src="https://static.tildacdn.com/tild6564-3035-4835-b539-336633656330/reading-book_Traced.svg" className="grid_icon" alt="person with a book" />
@@ -50,9 +50,9 @@ function Goals(){
             <div className="goals_text_after_forwho">
                <div className="goals_forwho">
                   <p className="goals_forwho_bigtext">В КЛУБ ПРИНИМАЮТ</p>
-                  <p className="goals_forwho_smalltext">ТЕХ, КТО ТОЛЬКО НАЧИНАЕТ ПОДГОТОВКУ, И УЖЕ СИЛЬНЫХ РЕБЯТ.</p>
+                  <p className="goals_forwho_smalltext">ТЕХ, КТО ТОЛЬКО НАЧИНАЕТ ПОДГОТОВКУ И УЖЕ СИЛЬНЫХ РЕБЯТ.</p>
                   <div className="goals_forwho_plashka">
-                     <p className="goals_forwho_plashka_text">Здесь не просто обычные, серые занятия, с которых нет пользы. Клуб подарит тебе: </p>
+                     <p className="goals_forwho_plashka_text">Здесь не просто обычные, серые занятия, от которых нет пользы. Клуб подарит тебе: </p>
                      <img src="https://static.tildacdn.com/tild6233-3061-4234-b336-653466383535/Group_36.svg" className="goals_forwho_icon" alt="arrow"/>
                   </div>
                </div>
